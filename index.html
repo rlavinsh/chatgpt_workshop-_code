@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>we are learning html</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <h2>Registration form</h2>
     <!-- <h1>Lorem, ipsum.</h1>
     <h2>Lorem, ipsum dolor.</h2>
     <h3>Lorem ipsum dolor sit.</h3>
@@ -19,42 +21,42 @@
       natus nulla sapiente at placeat ipsam sed iste modi.
     </p> -->
 
-    <form>
+    <!-- <form>
       <label for="username">Enter your mail id:</label>
       <input type="email" name="username" placeholder="Enter your mail id" />
       <br /><br />
       <label for="password">Enter your password:</label>
       <input type="text" placeholder="Enter your password" name="password" />
-    </form>
+    </form> -->
 
     <!-- Registraion form -->
-    <label for="firstname">FirstName:</label><br /><br />
-    <input type="text" name="firstname" />
+    <label for="firstname">FirstName:</label><br />
+    <input type="text" id="firstname" name="firstname" />
     <br /><br />
-    <label for="lastname">LastName:</label><br /><br />
-    <input type="text" name="lastname" />
+    <label for="lastname">LastName:</label><br />
+    <input type="text" id="lastname" name="lastname" />
     <br /><br />
-    <label for="email">Email:</label><br /><br />
-    <input type="email" name="email" />
+    <label for="email">Email:</label><br />
+    <input type="email" id="email" name="email" />
     <br /><br />
-    <label for="password">Password:</label><br /><br />
-    <input type="password" name="password" />
+    <label for="password">Password:</label><br />
+    <input type="password" id="password" name="password" />
     <br /><br />
     <label for="gender">Gender</label>
-    <br /><br />
+    <br />
     <label for="gender">Male</label>
-    <input type="radio" name="gender" value="Male" />
+    <input type="radio" name="gender" value="Male"  />
     <label for="gender">Female</label>
     <input type="radio" name="gender" value="Female" />
     <label for="gender">Other</label>
-    <input type="radio" name="gender" value="Other" />
+    <input type="radio" name="gender" value="Other"/>
     <br /><br />
     <select name="country">
       <option value="india">India</option>
       <option value="australia">Australia</option>
       <option value="srilanka">SriLanka</option>
     </select>
-
+    <br /><br />
     <button type="submit">submit</button>
   </body>
 </html>
