@@ -19,7 +19,7 @@ body {
     gap: 20px;
     padding-top: 100px;
     flex-direction: column;
-    display: none;
+    /* display: none; */
 
 }
 
