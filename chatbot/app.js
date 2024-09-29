@@ -4,7 +4,7 @@ let btn = document.querySelector(".btn");
 let chatContainer = document.querySelector(".chat-container");
 let userMessage = null;
 let apiUrl =
-  "Paste your API key here";
+  "";
 // creating tht chatbox function 3
 function createChatBox(html, className) {
   let div = document.createElement("div");
